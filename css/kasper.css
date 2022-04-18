@@ -16,6 +16,9 @@ html {
 body {
   font-family: "Open Sans", sans-serif;
 }
+a {
+  color: white;
+}
 ul {
   list-style: none;
 }
