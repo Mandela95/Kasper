@@ -998,11 +998,27 @@ header nav .form i:hover {
   margin: 10px auto;
 }
 .footer .social-icons i {
-  padding: 20px;
-  font-size: 20px;
+  padding: 20px 20px 0;
+  font-size: 30px;
 }
 .footer .social-icons i:hover {
   cursor: pointer;
+}
+.footer .social-icons i:hover {
+  cursor: pointer;
+}
+
+.social-icons .fa-facebook:hover {
+  color: blue;
+}
+.social-icons .fa-instagram:hover {
+  color: deeppink;
+}
+.social-icons .fa-twitter:hover {
+  color: #3b88f1;
+}
+.social-icons .fa-youtube:hover {
+  color: red;
 }
 .footer .copyright {
   margin-top: 60px;
@@ -1011,15 +1027,3 @@ header nav .form i:hover {
   color: var(--main-color);
   font-weight: bold;
 }
-/* footer {
-  background-color: var(--main-color);
-  color: white;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-}
-footer span {
-  font-weight: bold;
-  font-size: 1.5rem;
-} */
