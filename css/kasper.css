@@ -393,12 +393,19 @@ header nav .form i:hover {
 .portfolio .shuffle {
   display: flex;
   justify-content: center;
+  font-weight: bold;
 }
 .portfolio .shuffle li {
   padding: 10px;
+  transition: 1s;
+  border-radius: 10px;
 }
 .portfolio .shuffle li:hover {
   cursor: pointer;
+  background-color: var(--main-color);
+  transform: scale(1.5);
+  margin-right: 25px;
+  margin-left: 25px;
 }
 .portfolio .shuffle li.active {
   background-color: var(--main-color);
@@ -662,6 +669,10 @@ header nav .form i:hover {
   border-radius: 50%;
   margin-right: 5px;
   border: 1px solid #aaa;
+}
+.our-skills .testimonial .bullets li:hover {
+ cursor: pointer;
+ background-color: var(--main-color);
 }
 .our-skills .testimonial .bullets .active {
   background-color: var(--main-color);
