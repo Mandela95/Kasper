@@ -881,6 +881,8 @@ header nav .form i:hover {
   border: 1px solid white;
   border-right: none;
   caret-color: var(--main-color);
+  color: white;
+  border-radius: 10px 0 0 10px;
 }
 .subscripe .form input[type="submit"] {
   width: 130px;
@@ -891,6 +893,7 @@ header nav .form i:hover {
   padding: 10px 20px;
   text-transform: uppercase;
   cursor: pointer;
+  border-radius: 0 10px 10px 0;
 }
 .subscripe .form input[type="email"]:focus,
 .subscripe .form input[type="submit"]:focus {
