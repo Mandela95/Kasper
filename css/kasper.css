@@ -167,12 +167,12 @@ header nav .form {
   height: 30px;
   position: relative;
   border-left: 1px solid white;
-  margin-left: 30px;
+  margin-left: 20px;
 }
 header nav .form i {
   color: white;
   position: absolute;
-  font-size: 20px;
+  font-size: 25px;
   top: 50%;
   transform: translatey(-50%);
   right: 0;
@@ -237,11 +237,11 @@ header nav .form i:hover {
 }
 .landing .fa-angle-left {
   left: 20px;
-  font-size: 20px;
+  font-size: 40px;
 }
 .landing .fa-angle-right {
   right: 20px;
-  font-size: 20px;
+  font-size: 40px;
 }
 .landing .bullets {
   position: absolute;
@@ -260,6 +260,7 @@ header nav .form i:hover {
 }
 .landing .bullets li:hover {
   cursor: pointer;
+  background-color: var(--main-color);
 }
 .landing .bullets li.active {
   background-color: var(--main-color);
@@ -281,7 +282,8 @@ header nav .form i:hover {
   display: flex;
 }
 .services .srv-box i {
-  margin-right: 50px;
+  margin-right: 30px;
+  color: black;
 }
 @media (max-width: 767px) {
   .services .srv-box {
@@ -496,6 +498,11 @@ header nav .form i:hover {
   padding: 10px;
   text-transform: uppercase;
   border-style: none;
+  cursor: pointer;
+  transition: .5s;
+}
+.video .text button:hover {
+    transform: scale(1.5);
 }
 .about {
   padding-top: var(--section-padding);
