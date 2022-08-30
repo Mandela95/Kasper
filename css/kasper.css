@@ -1001,12 +1001,11 @@ header nav .form i:hover {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.2s;
-  z-index: 99;
+  z-index: 9;
 }
 .up.show {
   right: 20px;
 }
-
 .footer {
   padding-top: calc(var(--section-padding) / 2);
   padding-bottom: calc(var(--section-padding) / 2);
