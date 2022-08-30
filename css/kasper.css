@@ -1001,6 +1001,7 @@ header nav .form i:hover {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.2s;
+  z-index: 99;
 }
 .up.show {
   right: 20px;
